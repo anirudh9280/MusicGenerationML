@@ -1,0 +1,15 @@
+FMA Dataset EDA Summary for Task 4
+========================================
+
+Generated Visualizations:
+1. duration_histogram.png - Distribution of track lengths
+2. sample_waveform.png - Example audio waveform
+3. multiple_waveforms.png - 4 different track waveforms
+4. spectrograms.png - Mel spectrograms of 4 tracks
+5. amplitude_analysis.png - RMS amplitude distribution & duration correlation
+6. detailed_duration_analysis.png - Enhanced duration statistics
+
+These plots demonstrate:
+- Dataset diversity in duration, amplitude, and frequency content
+- Audio quality and characteristics
+- Suitability for music generation training
