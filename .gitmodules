@@ -1,0 +1,6 @@
+[submodule "libs/magenta"]
+	path = libs/magenta
+	url = https://github.com/magenta/magenta.git
+[submodule "libs/musika"]
+	path = libs/musika
+	url = https://github.com/marcoppasini/musika.git
