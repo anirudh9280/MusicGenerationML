@@ -99,7 +99,7 @@ def frames_to_midi(preds, audio_length, hop=160, sr=16000, out_midi="out.mid"):
     print(f"Wrote MIDI: {out_midi}  ({len(piano.notes)} notes)")
 
 def main(args):
-    device = "cuda" if torch.cuda.is_available() else "cpu"
+    device = "cpu"
     print("Using device:", device)
 
     # 1. Load trained FrameTranscriber

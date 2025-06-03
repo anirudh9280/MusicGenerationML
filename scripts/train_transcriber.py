@@ -20,7 +20,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, random_split
-from maestro_dataset import MaestroFrameDataset
+from maestro_dataset_fixed import MaestroFrameDataset
 
 class FrameTranscriber(nn.Module):
     def __init__(self, hidden_dim=128, num_layers=2, dropout=0.3, num_classes=89):
@@ -73,7 +73,7 @@ def eval_epoch(model, loader, criterion, device):
     return total_loss / len(loader), correct / total
 
 def main(args):
-    device = "cuda" if torch.cuda.is_available() else "cpu"
+    device = "cpu"
     print("Using device:", device)
 
     # 1. Load dataset and split
