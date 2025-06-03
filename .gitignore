@@ -1,0 +1,59 @@
+# Dataset files (too large for GitHub)
+data/maestro_tfrecords/
+data/maestro_2004/
+data/edm_hse/
+data/*.tfrecord
+data/*.zip
+data/*.wav
+data/*.mid
+data/*.midi
+data/*.mp3
+
+# Model checkpoints and outputs
+results/
+models/
+checkpoints/
+*.ckpt
+*.pkl
+*.h5
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Virtual environments
+env_task2/
+env_task4/ 
